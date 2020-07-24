@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    padding: 2em;
+}
+
+.dog-pics {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hidden {
+
+    display: none;
+
+}
