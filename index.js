@@ -15,6 +15,7 @@ function templateDogHtml(message){
 
 function displayDogs(responseJson) {
     /* Log the JSON object from the response */
+    $('.dog-pics').empty();
     console.log(responseJson);
     /* Add each image to the DOM */
     messages = responseJson.message;
